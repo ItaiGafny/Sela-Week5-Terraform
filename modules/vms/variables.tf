@@ -1,10 +1,4 @@
 # Number of web servers to create
-variable "instance_count" {
-  type    = number
-}
-variable "vm_size" {
-  type = string
-}
 variable "prefix" {
   type = string
 }
@@ -20,3 +14,10 @@ variable "WebTierNSG_id" {
 variable "DataTierNSG_id" {
   type = string
 }
+variable "instance_count" {
+  type    = number
+}
+variable "vm_size" {
+  type = string
+}
+
